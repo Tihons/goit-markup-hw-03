@@ -81,6 +81,8 @@
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 
@@ -90,6 +92,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .team{
@@ -104,11 +107,14 @@
 }
 
 .sectionfour {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .listitemtwo {
     background-color: #ffffff;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .linktwo {
@@ -242,6 +248,7 @@
 .sectiontwo{ padding: 120px 0;}
 .planlist{display: flex;
 gap: 24px;}
-.listone{width: calc((100% - 72px) / 4);}
+.listone{flex-basis: calc((100% - 3 * 24px) / 4)}
 .sectionthree{padding-bottom: 120px;}
 .listik{flex-basis: calc((100% - 48px) / 3)}
+.workers{ padding: 32px 0 ;}
