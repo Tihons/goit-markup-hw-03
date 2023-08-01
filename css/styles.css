@@ -130,6 +130,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0 24px;
 }
 
 .headerlink:hover {
@@ -193,12 +194,15 @@ color:  #2e2f42;}
 .header{border-bottom: 1px solid #e7e9fc;}
 .div{display:flex;}
 .container{width: 1158px;
-margin: 0;
+margin: 0 auto;
 padding: 0 15px 0 15px;}
 .nav{display: flex;
     align-items: center;
 }
-.menu{display: flex;}
+.menu{display: flex;
+gap: 40px;}
+.connection{display: flex;
+gap: 40px;}
 
 
     
