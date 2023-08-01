@@ -241,4 +241,4 @@
 .sectiontwo{ padding: 120px 0;}
 .planlist{display: flex;
 gap: 24px;}
-.listone{width: calc((100%-72px)/4);}
+.listone{width: calc((100% - 72px) / 4);}
