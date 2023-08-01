@@ -71,6 +71,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .titlethree {
@@ -237,3 +238,7 @@
     display: flex;
     gap: 40px;
 }
+.sectiontwo{ padding: 120px 0;}
+.planlist{display: flex;
+gap: 24px;}
+.listone{width: calc((100% - 72px) / 4);}
