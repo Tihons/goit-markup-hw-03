@@ -288,6 +288,7 @@
     font-family: "Raleway", sans-serif;
     display: inline-block;
     margin-bottom: 16px;
+    
 }
 
 .headertwo {
@@ -310,3 +311,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.listlist{ display: flex;
+    justify-content: center;
+gap: 24px;
+margin-bottom: 72px}
