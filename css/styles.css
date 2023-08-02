@@ -237,7 +237,7 @@
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
+
 }
 
 .nav {
@@ -291,9 +291,8 @@
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
-    display: inline-block;
     margin-bottom: 16px;
-    
+    display: inline-block;
 }
 
 .headertwo {
@@ -321,3 +320,4 @@
 gap: 24px;
 margin-bottom: 72px}
 .listitemt{flex-basis: calc((100% - 3 * 24px) / 4)}
+.containertwo{    display: flex;}
