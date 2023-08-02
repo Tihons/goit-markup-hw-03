@@ -196,16 +196,21 @@
     background-color: #F4F4FD;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .buttontwo:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .buttontwo:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .sectionfive {
