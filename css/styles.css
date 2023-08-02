@@ -324,4 +324,7 @@ margin: 0;}
 gap: 24px;
 margin-bottom: 72px}
 .listitemt{flex-basis: calc((100% - 3 * 24px) / 4)}
-.containertwo{    display: flex;}
+.containertwo{    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;}
