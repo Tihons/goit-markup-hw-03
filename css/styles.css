@@ -1,8 +1,7 @@
 :root {
     --background-color: #FFFFFF;
 }
-ul{padding: 0;
-margin: 0;}
+
 
 .body {
     background-color: #FFFFFF;
@@ -25,7 +24,7 @@ margin: 0;}
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     margin-right: 76px;
-    
+
 }
 
 .sectionone {
@@ -99,7 +98,7 @@ margin: 0;}
     text-align: center;
 }
 
-.team{
+.team {
 
     font-size: 36px;
     line-height: 1.11;
@@ -107,7 +106,7 @@ margin: 0;}
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
 }
 
 .sectionfour {
@@ -250,13 +249,34 @@ margin: 0;}
     display: flex;
     gap: 40px;
 }
-.sectiontwo{ padding: 120px 0;}
-.planlist{display: flex;
-gap: 24px;}
-.listone{flex-basis: calc((100% - 72px) / 4);}
-.sectionthree{padding-bottom: 120px;}
-.listik{flex-basis: calc((100% - 48px) / 3)}
-.workers{ padding: 32px 0 ;}
+
+.sectiontwo {
+    padding: 120px 0;
+}
+
+.planlist {
+    display: flex;
+    gap: 24px;
+}
+
+.listone {
+    flex-basis: calc((100% - 72px) / 4);
+    padding: 0;
+    margin: 0;
+}
+
+.sectionthree {
+    padding-bottom: 120px;
+}
+
+.listik {
+    flex-basis: calc((100% - 48px) / 3)
+}
+
+.workers {
+    padding: 32px 0;
+}
+
 .logotypetwo {
     font-size: 18px;
     font-style: normal;
@@ -267,17 +287,26 @@ gap: 24px;}
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     display: inline-block;
-    margin-bottom: 16px;}
-    .headertwo{ border-bottom: 1px solid #e7e9fc}
-    .sectionsix{ padding: 96px 0 120px 0;
-    }
-    .visually-hidden{position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;}
+    margin-bottom: 16px;
+}
+
+.headertwo {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.sectionsix {
+    padding: 96px 0 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
