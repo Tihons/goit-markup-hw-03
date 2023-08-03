@@ -348,7 +348,6 @@ h3{margin: 0;}
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
 }
 
 .photolist {
@@ -367,3 +366,4 @@ h3{margin: 0;}
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.display{    display: flex;}
