@@ -66,6 +66,7 @@ h3{margin: 0;}
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    margin-top: 48px;
 
 }
 
@@ -105,7 +106,7 @@ h3{margin: 0;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -367,3 +368,7 @@ h3{margin: 0;}
     border-top: none;
 }
 .display{    display: flex;}
+.listparagraphtwo{line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;}
